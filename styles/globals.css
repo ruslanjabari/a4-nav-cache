@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: black;
 }
 
 a {
@@ -13,6 +14,100 @@ a {
 
 * {
   box-sizing: border-box;
+}
+.song-preview {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 100%;
+  background-color: black;
+}
+
+.song-details {
+  background-color: black;
+}
+
+.banner{
+  padding: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.song-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+  background-color: rgba(16, 196, 16, 0.5);
+  padding: 7%;
+}
+.warning {
+  color: red;
+}
+
+.logo {
+  max-width: 300px;
+  justify-content: left;
+  align-items: center;
+  display: flex;
+}
+
+.s {
+  display: flex;
+  margin-bottom: -3%;
+}
+
+.song-info {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+}
+
+.artist-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  max-width: 200px;
+}
+
+.artist {
+  display: flex;
+  flex-direction: row;
+  margin: 5%;
+  align-items: center;
+}
+
+.song-mid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 25%;
+}
+
+.artist-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.heart{
+  margin: 5%;
+}
+
+.p {
+  margin: 2px;
+  color: rgb(186, 186, 186);
+  font-weight: 400;
+}
+
+.warning-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (prefers-color-scheme: dark) {
